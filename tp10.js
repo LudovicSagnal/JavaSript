@@ -1,16 +1,23 @@
-var n = 1
+// var n = 1
 
-while (n < 5) {
-    n++;
-}
-
-console.log(n);
-
-// var prenom = prompt("Entrez votre prénom");
-
-// do {
-//     console.log(prenom);
-// } while (prenom === null) {
-//     alert("Rentre un prénom !");
+// while (n < 5) {
+//     n++;
 // }
+
+// console.log(n);
+
+
+
+do {
+     prenom = prompt("Entrez votre prénom");
+} while (prenom === "" || prenom ===  null);
+
+alert("Rentre un prénom !");
+
+
+// do{
+//     userInput = prompt('Whats your city?') 
+//   } while (bestCities.indexOf(userInput) === -1);
+  
+//   alert('I love ' + userInput + ' also' )
 
