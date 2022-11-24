@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,88,187,1) 0%, rgba(201,174,49,1) 100%);
+    font-family:'Satisfy', cursive;
+    color: #4958bb;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+    border: dashed 8px #4958bb;
+    font-size: 50px;
+    margin-top: 50px;
+    width: 55%;
+    height: 60%;
+    text-shadow: 5px, 5px, 5px black
+}
+
+.citation {
+    font-size: 50px;
+    text-shadow: 2px 2px 15px black;
+}
+
+.auteur {
+    font-size: 30px;
+    text-shadow: 2px 2px 9px black;
+}
+
+button {
+    background-color: #4958bb;
+    border: none;
+    box-shadow: 0px 2px 5px black;
+    color: #d5d07c;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+button :hover {
+    cursor: grab;
+}

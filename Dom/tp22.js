@@ -16,11 +16,11 @@ pSelector.style.display = "none"
 
 buttonSelector.addEventListener("click", function(){
     if (hidden == true) {
-        pSelector.style.display = "block"
+        pSelector.style.display = "block";
         buttonSelector.innerText = "Chuuuuuut, c'est secret";
         hidden = false;
     } else if (hidden == false) {
-        pSelector.style.display = "none"
+        pSelector.style.display = "none";
         buttonSelector.innerText = "Clique sur le bouton";
         hidden = true;
     }
