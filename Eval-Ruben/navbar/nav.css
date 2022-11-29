@@ -1,0 +1,41 @@
+body {
+    background-color: #141414;
+    color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#icon {
+    font-size: 58px;
+}
+
+.nav {
+    height: 8vh;
+    overflow: hidden;
+    transition: height 0.2s ease;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    font-size: 100px;
+    gap: 40px;
+}
+
+.show {
+    height: 100vh;
+    overflow: hidden;   
+}
+
+.menu:hover > a {
+    opacity: 0.2;
+}
+
+.menu:hover > a:hover {
+    opacity: 1;
+}
