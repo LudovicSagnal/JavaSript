@@ -5,7 +5,7 @@ body {
     align-items: center;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,88,187,1) 0%, rgba(201,174,49,1) 100%);
     font-family:'Satisfy', cursive;
-    color: #4958bb;
+    color: rgba(73,88,187,1);
 }
 
 section {
@@ -15,7 +15,7 @@ section {
     justify-content: center;
     padding: 30px;
     background-color: white;
-    border: dashed 8px #4958bb;
+    border: dashed 15px rgba(73,88,187,1);
     font-size: 50px;
     margin-top: 50px;
     width: 55%;
@@ -24,28 +24,32 @@ section {
 }
 
 .citation {
+    text-align: center;
     font-size: 50px;
-    text-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 3px rgba(201,174,49,1);
 }
 
 .auteur {
-    font-size: 30px;
-    text-shadow: 2px 2px 9px black;
+    margin-bottom: -100px;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgba(201,174,49,1);
+    font-weight: 200;
 }
 
 button {
-    background-color: #4958bb;
+    background-color: rgba(73,88,187,1);
     border: none;
-    box-shadow: 0px 2px 5px black;
+    box-shadow: 0px 5px 10px black;
     color: #d5d07c;
-    width: 300px;
-    height: 80px;
+    width: 400px;
+    height: 120px;
     border-radius: 10px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
+    text-shadow: 2px 2px 3px black;
 }
 
-button :hover {
-    cursor: grab;
+button:hover {
+    cursor: pointer;
 }
