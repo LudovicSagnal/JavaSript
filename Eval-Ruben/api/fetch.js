@@ -11,8 +11,7 @@ fetch('https://picsum.photos/v2/list?page=1&limit=100')
   })
   .then((photos) => {
     photos.forEach(photo => {
-      photo.download_url = photo.download_url.replace(photo.width, "600");
-      photo.download_url = photo.download_url.replace(photo.height, "600");
+      photo.download_url = photo.download_url.replace(photo.width, "600").replace(photo.height, "600");
       console.log( photo.download_url);
       createElements();
       fillElements(photo.download_url, photo.author, photo.url);
@@ -35,7 +34,6 @@ function fillElements(photoUrl, photoAuthor, urlAuthor) {
   buttonCreation.target = "blank";
   pCreation.textContent = photoAuthor;
   sectionCreation.classList.add("sect");
-
 }
 
 function appendElements() {

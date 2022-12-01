@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(nuage.png);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 65%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 2px rgb(129, 129, 129);
+}
+
+input {
+    width: 60%;
+    height: 5%;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    background: rgb(73,88,187);
+    background: linear-gradient(357deg, rgba(73,88,187,1) 0%, rgb(198, 216, 233) 100%); 
+    width: 40%;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
