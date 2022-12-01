@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Heading";
+    src: url("font/HeadingNowTrial-34Regular.ttf");
+}
+
+*{
+    font-family: "Heading";
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.sect {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    height: 300px;
+    box-shadow: 0px 15px 20px 1px rgb(190, 190, 190);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    width: 50%;
+    background-color: white;
+    z-index: 2;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #63c0ed,  #4f81e3);
+    font-size: 25px;
+    letter-spacing : 5px;
+    filter: saturate(50%);
+    transition: 1s;
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
+    z-index: 1;
+    filter: saturate(50%);
+    transition: 2s;
+}
+
+section:hover > img {
+    transition: 2s;
+    scale: 1.3;
+    filter: saturate(100%);
+}
+
+section:hover > img:hover {
+    transition: 2s;
+    scale: 1.3;
+}
+
+section:hover > aside > a {
+    transition: 1s;
+    filter: saturate(100%);
+}
+
+section:hover > aside > a:hover {
+    transition: 1s;
+    filter: saturate(100%);
+    letter-spacing: 1px;
+}
+
+a:hover {
+    transition: 1s;
+    filter: saturate(100%);
+    letter-spacing: 1px;   
+}
+
+.sect:nth-child(even) > aside > a{
+    background: linear-gradient(120deg,#9cd996, #36d2b0);
+}
