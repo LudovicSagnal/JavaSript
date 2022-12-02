@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    border: 1px solid;
+    text-align: center;
+}
+
+body :nth-child(even) {
+    background-color: antiquewhite;
+}
