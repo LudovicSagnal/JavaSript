@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(202, 164, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 50px;
+    padding: 10px;
+    border: solid 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(120deg,gold, rgb(189, 116, 189));
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px;
+}

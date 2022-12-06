@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: goldenrod;
+}
+
+section {
+    display: flex;
+    width: 30%;
+    gap: 10px;
+}
+
+button {
+    height: 50px;
+    width: 30%;
+}
+
+p {
+    background-color: coral;
+    text-align: center;
+}
