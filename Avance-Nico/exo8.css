@@ -1,0 +1,8 @@
+p {
+    display: none;
+    font-size: 50px;
+}
+
+.pShow {
+    display: block;
+}
